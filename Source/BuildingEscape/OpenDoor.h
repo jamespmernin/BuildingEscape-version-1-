@@ -2,8 +2,8 @@
 
 #pragma once
 
-#include "Engine/TriggerVolume.h"
 #include "CoreMinimal.h"
+#include "Engine/TriggerVolume.h"
 #include "Components/ActorComponent.h"
 #include "OpenDoor.generated.h"
 
