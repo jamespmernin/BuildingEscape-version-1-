@@ -4,7 +4,7 @@
 #include "GameFramework/Actor.h"
 
 
-// Sets default values for this component's properties
+/// Sets default values for this component's properties
 UPositionReport::UPositionReport()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
@@ -13,23 +13,25 @@ UPositionReport::UPositionReport()
 }
 
 
-// Called when the game starts
+/// Called when the game starts
 void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// Gets the name of the object.
 	FString ObjectName = GetOwner()->GetName();
+
+	// Gets the location of the object and returns it as a string.
 	FString ObjectPos = GetOwner()->GetTransform().GetLocation().ToString();
-	//FString ObjectPos = "X=something, Y=something else, etc";
+
+	// Logs the information to the console.
 	UE_LOG(LogTemp, Warning, TEXT("%s is at %s"), *ObjectName, *ObjectPos)
 }
 
 
-// Called every frame
+/// Called every frame
 void UPositionReport::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
 }
 
