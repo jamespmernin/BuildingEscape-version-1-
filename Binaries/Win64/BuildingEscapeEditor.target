@@ -6,8 +6,8 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 19,
-		"PatchVersion": 1,
-		"Changelist": 3989454,
+		"PatchVersion": 2,
+		"Changelist": 4033788,
 		"CompatibleChangelist": 3944462,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-2541.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-565.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-2541.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-565.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-BuildingEscape-2541.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-BuildingEscape-565.lib",
 			"Type": "ImportLibrary"
 		},
 		{
